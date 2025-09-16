@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.container{
+    width: 90vmin;   /* 90% of the smaller side of viewport */
+    height: 90vmin;  /* keeps it square */
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8 ,1fr);
+   
+}
+.white{
+    background-color: white;
+}
+.brown{
+    background-color: brown;
+}
